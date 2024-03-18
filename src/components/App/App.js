@@ -13,9 +13,8 @@ function App () {
   return (
     <main>
       <h1>IdeaBox</h1>
-      <Ideas 
-        ideas={ideas}
-      />
+      {ideas.length && <h2>No clue!</h2>}
+      <Ideas ideas={ideas} />
     </main>
   )
 }

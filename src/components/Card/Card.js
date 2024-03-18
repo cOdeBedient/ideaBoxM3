@@ -1,6 +1,6 @@
 import './Card.css';
 
-function Card({ title, description, id }) {
+function Card({ title, description }) {
     return (
         <div className="card">
             <h3>{title}</h3>
